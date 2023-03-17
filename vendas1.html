@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V.a Lima Imóveis</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='index.html'><img src='./images/Logo-Luz-Imobiliaria.png'/></a></li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="vendas.html">Vendas</a></li>
+                    <li><a href="alugar.html">Alugar</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="localizacao.html">Localização</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+        </header>
+
+
+        <span class="destaqueName">
+            APARTAMENTO COHAB, <br> ESTRADA DE ITAPECERICA 5333.
+        </span>
+
+        <div class="slide-container">
+            <section class="slide fade">
+                <div class="number">1 / 4</div>
+                <img src="images/apartamento cohab/155-jeronimo-137m-no-jardim-paulista-sao-paulo.jpg" alt="Paisagem 01" style="width: 100%">
+            </section>
+            <section class="slide fade">
+                <div class="number">2 / 4</div>
+                
+                <img src="images/apartamento cohab/155-jeronimo-137m-no-jardim-paulista-sao-paulo (1).jpg" alt="Paisagem 02" style="width: 100%">
+            </section>
+            <section class="slide fade">
+                <div class="number">3 / 4</div>
+                <img src="images/apartamento cohab/155-jeronimo-137m-no-jardim-paulista-sao-paulo.webp" alt="Paisagem 03" style="width: 100%">
+            </section>
+            <section class="slide fade">
+                <div class="number">4 / 4</div>
+                <img src="images/apartamento cohab/155-jeronimo-137m-no-jardim-paulista-sao-paulo (2).jpg" alt="Paisagem 04" style="width: 100%">
+            </section>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+
+        <div class="container-anuncio">
+            <span>2 quartos - sala - cozinha - <br> banheiro - lavanderia</span>
+            <p>R$ 130.000,00</p>
+        </div>
+
+        <h3 class="cod">Código: e554</h3>
+
+
+        <div class="whats">
+            <a href="https://wa.me/551130042222" target="_blank">
+                <img src="images/whatsappLogoVerde.png" alt="">
+            </a>
+        </div>
+<script src="script.js"></script>        
+</body>
+</html>
